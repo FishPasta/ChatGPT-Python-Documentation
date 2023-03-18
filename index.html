@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Introductory Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header id="nav-header">Python Documentation</header>
+        <div id="navbox">
+            <a href="#Introduction_to_Python" class="nav-link">Introduction to Python</a>
+            <a href="#Hello_World" class="nav-link">Hello World</a>
+            <a href="#Basic_Syntax_and_Variables" class="nav-link">Basic Syntax and Variables</a>
+            <a href="#Control_Flow_and_Loops" class="nav-link">Control Flow and Loops</a>
+            <a href="#Functions_and_Modules" class="nav-link">Functions and Modules</a>
+            <a href="#Data_Structures" class="nav-link">Data Structures</a>
+            <a href="#Object-Oriented_Programming" class="nav-link last-item">Object-Oriented Programming</a>
+        </div>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction_to_Python">
+            <header class="first-header">Introduction to Python</header>
+            <p>Python is a high-level programming language that is easy to learn and widely used in many different fields, from data science to web development. It was first released in 1991 and has since become one of the most popular programming languages in the world.</p>
+            <p>The reason for its popularity is its simplicity and versatility. Python code is easy to read and write, even for beginners, and it can be used for a wide range of tasks. For example, you can use Python to build websites, automate tasks, analyze data, and much more.</p>
+            <p>One thing that sets Python apart from other programming languages is its focus on code readability. Python code is designed to be easy to understand, even for non-programmers. This makes it a great choice for beginners who are just starting to learn programming.</p>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <p>"Hello World" is a simple program that is often used to demonstrate the basic syntax of a programming language. In Python, the "Hello World" program can be written with a single line of code:
+                <code>print("Hello, World!")</code>
+            </p>
+            <p>This code uses the "print" function to output the message "Hello, World!" to the console. When you run this program, you should see the message printed to the screen. It's a great way to get started with Python and start exploring the language.</p>
+        </section>
+        <section class="main-section" id="Basic_Syntax_and_Variables">
+            <header>Basic Syntax and Variables</header>
+            <p>Every programming language has its own set of rules and syntax that you need to learn in order to write code. In Python, you can start with the basic syntax, which includes keywords, operators, and special characters. For example, the keyword "if" is used to create a conditional statement, and the operator "+" is used to add two numbers together.</p>
+            <p>In Python, you can also use variables to store data. Variables are like containers that hold information, such as numbers or strings (text). You can assign a value to a variable using the equal sign (=), like this:
+                <code>
+                    x = 5
+                    <br>name = "John"
+                </code>
+            </p>
+            <p>Once you've assigned a value to a variable, you can use that variable in your code. For example, you can add two variables together like this:
+                <code>
+                    x = 5
+                    <br>y = 10
+                    <br>z = x + y
+                    <br>print(z) # print 15
+                </code>
+            </p>
+        </section>
+        <section class="main-section" id="Control_Flow_and_Loops">
+            <header>Control Flow and Loops</header>
+            <p>Python has several control flow statements that allow you to control the execution of your code. For example, the "if" statement allows you to check if a condition is true or false, and execute different code depending on the result. The "else" statement is used to execute code if the condition is false.</p>
+            <p>Python also has loops, which allow you to repeat code multiple times. The most common types of loops in Python are the "for" loop and the "while" loop. A "for" loop is used to iterate over a sequence of values, while a "while" loop is used to repeat code until a condition is no longer true.</p>
+        </section>
+        <section class="main-section" id="Functions_and_Modules">
+            <header>Functions and Modules</header>
+            <p>Functions are a fundamental concept in programming, and Python makes it easy to create and use functions. A function is a block of code that performs a specific task, and it can be called from anywhere in your code. You can define a function using the "def" keyword, like this:
+                <code>
+                    def greet(name):
+                    <br>&emsp;print("Hello, " + name + "!")
+                </code>
+            </p>
+            <p>Once you've defined a function, you can call it from anywhere in your code:
+                <code>greet("John") # Output: Hello, John!</code>
+            </p>
+            <p>Python also has a rich library of modules that you can use to extend the functionality of your code. A module is a file that contains Python code, and you can import it into your code using the "import" statement. For example, the "random" module allows you to generate random numbers:
+                <code>
+                    import random
+                    <br>print(random.randint(1, 10)) # Output: a random number between 1 and 10
+                </code>
+            </p>
+        </section>
+        <section class="main-section" id="Data_Structures">
+            <header>Data Structures</header>
+            <p>Python has several built-in data structures that you can use, including lists, tuples, and dictionaries. A list is an ordered collection of values, and you can add or remove values from a list using various methods. A tuple is similar to a list, but it's immutable, which means you can't change its values once it's created. A dictionary is a collection of key-value pairs, which allows you to easily retrieve values based on their keys.</p>
+            <ul>Python has several built-in data types that are commonly used in programming:
+                <li>Integer</li>
+                <li>Float</li>
+                <li>Boolean</li>
+                <li>String</li>
+                <li>List</li>
+                <li>Tuple</li>
+                <li>Dictionary</li>
+            </ul>
+            <p>Here's an example of how to use a list in Python:
+                <code>
+                    fruits = ["apple", "banana", "orange"]
+                    <br>print(fruits[0]) # Output: "apple"
+                    <br>fruits.append("pear")
+                    <br>print(fruits) # Output: ["apple", "banana", "orange", "pear"]
+                </code>
+            </p>
+        </section>
+        <section class="main-section" id="Object-Oriented_Programming">
+            <header>Object-Oriented Programming</header>
+            <p>Object-oriented programming (OOP) is a programming paradigm that focuses on creating objects that contain both data and methods (functions) that operate on that data. Python is an object-oriented language, which means you can use OOP concepts in your code.</p>
+            <p>In Python, you can define a class to create an object. A class is like a blueprint for an object, and it defines its properties (attributes) and methods. Here's an example of how to define a class in Python:
+                <code>
+                    class Person:
+                    <br>&emsp;def __init__(self, name, age):
+                    <br>&emsp;&emsp;self.name = name
+                    <br>&emsp;&emsp;self.age = age
+                    <br>
+                    <br>&emsp;def greet(self):
+                    <br>&emsp;&emsp;print("Hello, my name is " + self.name)
+                    <br>
+                    <br>person1 = Person("John", 30)
+                    <br>person1.greet() # Output: "Hello, my name is John"
+                </code>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <img id="logo" src="https://avatars.githubusercontent.com/u/105634684?v=4">
+        <p class='credit prayuda'>Made By <a href="https://github.com/FishPasta">Prayuda</a></p>
+        <p class="credit chatGPT">All the documentation in this page is generated by chatGPT</p>
+    </footer>
+</body>
+</html>
