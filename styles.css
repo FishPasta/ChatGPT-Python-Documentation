@@ -35,6 +35,7 @@ body {
         text-align: center;
         margin: -15rem 0 0 0 !important;
         padding: 0;
+        border-right: 0 !important;
     }
 
     #navbox {
@@ -42,10 +43,6 @@ body {
         overflow-y: scroll;
         border-top: 1px solid white;
         border-bottom: 2px solid #F0F0F0;
-    }
-
-    #navbox::-webkit-scrollbar {
-        width: 2.5rem;
     }
 
     /* Main */
